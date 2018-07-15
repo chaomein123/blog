@@ -1,0 +1,101 @@
+1531609304a:1:{s:17:"activities-en.htm";a:6:{s:8:"fileName";s:17:"activities-en.htm";s:7:"content";s:1234:"
+<ul class="text-center">
+	<a href="#"><h1><b>Activities</b></h1></a>
+	<li class="act"><a href="#"><b>Consulting And Expertise</b></a></li>
+	<li class="act"><a href="#"><b>Design</b></a></li>
+	<li class="act"><a href="#"><b>Reverse Engineering</b></a></li>
+</ul>
+
+<br><br>
+<div class="container">
+	<div class="row">
+		<div class="col-sm">
+			<a href="#"><h1>1. Consulting And Expertise</h1></a>
+			<p>Currently, we have partnership with bellow disciple experts : </p>
+			<ul>
+				<li><a href="#">Pipeline</a></li>
+				<li><a href="#">Subsea installation</a></li>
+				<li><a href="#">Instrumentation and Control System</a></li>
+				<li><a href="#">Structure</a></li>
+				<li><a href="#">Piping</a></li>
+				<li><a href="#">Pressure vessel equipment</a></li>
+				<li><a href="#">Valve</a></li>
+			</ul>
+			<p class="font-italic">Sectors: Oil, Gas, Petrochemical (onshore, offshore)</p>
+		</div>
+		<div class="col-sm">
+			<a href="#"><h1>2. Design</h1></a>
+			<p>Our current capacity of manpower is 600 hours/month</p>
+			<p class="font-italic">Sectors: Oil, Gas, Petrochemical (onshore, offshore)</p>
+
+			<a href="#"><h1>3. Reverse Engineering</h1></a>
+			<p>All industrials</p>
+		</div>
+	</div>
+</div>";s:5:"mtime";i:1530746272;s:6:"markup";s:1232:"<ul class="text-center">
+	<a href="#"><h1><b>Activities</b></h1></a>
+	<li class="act"><a href="#"><b>Consulting And Expertise</b></a></li>
+	<li class="act"><a href="#"><b>Design</b></a></li>
+	<li class="act"><a href="#"><b>Reverse Engineering</b></a></li>
+</ul>
+
+<br><br>
+<div class="container">
+	<div class="row">
+		<div class="col-sm">
+			<a href="#"><h1>1. Consulting And Expertise</h1></a>
+			<p>Currently, we have partnership with bellow disciple experts : </p>
+			<ul>
+				<li><a href="#">Pipeline</a></li>
+				<li><a href="#">Subsea installation</a></li>
+				<li><a href="#">Instrumentation and Control System</a></li>
+				<li><a href="#">Structure</a></li>
+				<li><a href="#">Piping</a></li>
+				<li><a href="#">Pressure vessel equipment</a></li>
+				<li><a href="#">Valve</a></li>
+			</ul>
+			<p class="font-italic">Sectors: Oil, Gas, Petrochemical (onshore, offshore)</p>
+		</div>
+		<div class="col-sm">
+			<a href="#"><h1>2. Design</h1></a>
+			<p>Our current capacity of manpower is 600 hours/month</p>
+			<p class="font-italic">Sectors: Oil, Gas, Petrochemical (onshore, offshore)</p>
+
+			<a href="#"><h1>3. Reverse Engineering</h1></a>
+			<p>All industrials</p>
+		</div>
+	</div>
+</div>";s:4:"code";N;s:12:"parsedMarkup";s:1232:"<ul class="text-center">
+	<a href="#"><h1><b>Activities</b></h1></a>
+	<li class="act"><a href="#"><b>Consulting And Expertise</b></a></li>
+	<li class="act"><a href="#"><b>Design</b></a></li>
+	<li class="act"><a href="#"><b>Reverse Engineering</b></a></li>
+</ul>
+
+<br><br>
+<div class="container">
+	<div class="row">
+		<div class="col-sm">
+			<a href="#"><h1>1. Consulting And Expertise</h1></a>
+			<p>Currently, we have partnership with bellow disciple experts : </p>
+			<ul>
+				<li><a href="#">Pipeline</a></li>
+				<li><a href="#">Subsea installation</a></li>
+				<li><a href="#">Instrumentation and Control System</a></li>
+				<li><a href="#">Structure</a></li>
+				<li><a href="#">Piping</a></li>
+				<li><a href="#">Pressure vessel equipment</a></li>
+				<li><a href="#">Valve</a></li>
+			</ul>
+			<p class="font-italic">Sectors: Oil, Gas, Petrochemical (onshore, offshore)</p>
+		</div>
+		<div class="col-sm">
+			<a href="#"><h1>2. Design</h1></a>
+			<p>Our current capacity of manpower is 600 hours/month</p>
+			<p class="font-italic">Sectors: Oil, Gas, Petrochemical (onshore, offshore)</p>
+
+			<a href="#"><h1>3. Reverse Engineering</h1></a>
+			<p>All industrials</p>
+		</div>
+	</div>
+</div>";}}

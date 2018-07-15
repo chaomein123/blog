@@ -1,0 +1,55 @@
+1531689732a:1:{s:9:"about.htm";a:9:{s:8:"fileName";s:9:"about.htm";s:7:"content";s:1625:"title = "About"
+url = "/about"
+layout = "default"
+is_hidden = 0
+==
+<div class="container">
+	<div class="row">
+		<div class="col-sm">
+			<!-- FRANCE -->
+			<h1 id="d3d_france"><a href="{{ 'd3d-france'|page }}"><b>D3D Engineering France</b></a></h1>
+			<p><b>D3D Engineering France</b> is a new company providing expertise and engineering services. We are specialized on Asset Integrity and development for existing industrial facilities.</p>
+			<a role="button" class="btn btn-green" title="D3D Engineering France" href="{{ 'd3d-france'|page }}"><i>Continue Reading</i></a>
+			<!-- END FRANCE -->
+		</div>
+		<div class="col-sm">
+			<!-- PHILIPPINES -->
+			<h1 id="d3d_phil"><a href="{{ 'd3d-phil'|page }}"><b>D3D Engineering Philippines</b></a></h1>
+			<p>We are a team of young designers and engineers with solid experience on providing 3D models and 2D drawings for different onshore and offshore projects.</p>
+			<a role="button" class="btn btn-green" title="D3D Engineering Philippines" href="{{ 'd3d-phil'|page }}"><i>Continue Reading</i></a>
+			<!-- END PHILIPPINES -->
+		</div>
+		<div class="col-sm">
+			<!-- LECO -->
+			<a href="{{ 'leco'|page }}"><h1 id="d3d_nig"><b>LECO</b> Louis Engineering and Construction Nigeria</h1></a>
+			<p>Will be responsible to ensure LECO Nigeria is fully registered with Nigerian Corporate Affairs and Nigerian Regulatory agencies (NNPC, DPR, VAT and others) to fully operate as a Nigerian company.</p>
+			<a role="button" class="btn btn-green" title="LECO" href="{{ 'leco'|page }}"><i>Continue Reading</i></a>
+			<!-- END LECO -->
+		</div>
+	</div>
+</div>
+";s:5:"mtime";i:1531603194;s:6:"markup";s:1551:"<div class="container">
+	<div class="row">
+		<div class="col-sm">
+			<!-- FRANCE -->
+			<h1 id="d3d_france"><a href="{{ 'd3d-france'|page }}"><b>D3D Engineering France</b></a></h1>
+			<p><b>D3D Engineering France</b> is a new company providing expertise and engineering services. We are specialized on Asset Integrity and development for existing industrial facilities.</p>
+			<a role="button" class="btn btn-green" title="D3D Engineering France" href="{{ 'd3d-france'|page }}"><i>Continue Reading</i></a>
+			<!-- END FRANCE -->
+		</div>
+		<div class="col-sm">
+			<!-- PHILIPPINES -->
+			<h1 id="d3d_phil"><a href="{{ 'd3d-phil'|page }}"><b>D3D Engineering Philippines</b></a></h1>
+			<p>We are a team of young designers and engineers with solid experience on providing 3D models and 2D drawings for different onshore and offshore projects.</p>
+			<a role="button" class="btn btn-green" title="D3D Engineering Philippines" href="{{ 'd3d-phil'|page }}"><i>Continue Reading</i></a>
+			<!-- END PHILIPPINES -->
+		</div>
+		<div class="col-sm">
+			<!-- LECO -->
+			<a href="{{ 'leco'|page }}"><h1 id="d3d_nig"><b>LECO</b> Louis Engineering and Construction Nigeria</h1></a>
+			<p>Will be responsible to ensure LECO Nigeria is fully registered with Nigerian Corporate Affairs and Nigerian Regulatory agencies (NNPC, DPR, VAT and others) to fully operate as a Nigerian company.</p>
+			<a role="button" class="btn btn-green" title="LECO" href="{{ 'leco'|page }}"><i>Continue Reading</i></a>
+			<!-- END LECO -->
+		</div>
+	</div>
+</div>";s:4:"code";N;s:5:"title";s:5:"About";s:3:"url";s:6:"/about";s:6:"layout";s:7:"default";s:9:"is_hidden";s:1:"0";}}

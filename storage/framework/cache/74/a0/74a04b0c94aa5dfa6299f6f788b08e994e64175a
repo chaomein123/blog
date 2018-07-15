@@ -1,0 +1,25 @@
+1531689733a:1:{s:14:"d3d-france.htm";a:10:{s:8:"fileName";s:14:"d3d-france.htm";s:7:"content";s:529:"title = "D3d-france"
+url = "/about/d3d-france"
+layout = "default"
+is_hidden = 0
+
+[viewBag]
+localeUrl[fr] = "/d3d-france"
+==
+<div class="container">
+	<h1 id="d3d_france" class="text-center"><a href="#"><b>D3D Engineering France</b></a></h1>
+	<div class="gallery-block grid-gallery">
+		<a class="lightbox" href="{{'about/d3d-flow.jpg'|media}}">
+		    <img class="img-fluid scale-on-hover text-center animated zoomInDown " src="{{'about/d3d-flow.jpg'|media}}" >
+		</a>
+	</div>
+    {% content 'd3dfrance-en' %}
+</div>";s:5:"mtime";i:1531611901;s:6:"markup";s:397:"<div class="container">
+	<h1 id="d3d_france" class="text-center"><a href="#"><b>D3D Engineering France</b></a></h1>
+	<div class="gallery-block grid-gallery">
+		<a class="lightbox" href="{{'about/d3d-flow.jpg'|media}}">
+		    <img class="img-fluid scale-on-hover text-center animated zoomInDown " src="{{'about/d3d-flow.jpg'|media}}" >
+		</a>
+	</div>
+    {% content 'd3dfrance-en' %}
+</div>";s:4:"code";N;s:5:"title";s:10:"D3d-france";s:3:"url";s:17:"/about/d3d-france";s:6:"layout";s:7:"default";s:9:"is_hidden";s:1:"0";s:7:"viewBag";a:1:{s:9:"localeUrl";a:1:{s:2:"fr";s:11:"/d3d-france";}}}}

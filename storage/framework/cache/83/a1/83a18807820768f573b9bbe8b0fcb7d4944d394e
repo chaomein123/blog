@@ -1,0 +1,17 @@
+1531689733a:1:{s:12:"d3d-phil.htm";a:10:{s:8:"fileName";s:12:"d3d-phil.htm";s:7:"content";s:257:"title = "D3d-phil"
+url = "/about/d3d-phil"
+layout = "default"
+is_hidden = 0
+
+[viewBag]
+localeUrl[fr] = "/d3d-phils"
+==
+<div class="container">
+    {% content 'd3dphil-en' %}
+    {% partial 'about-slider' %}
+    {% content 'd3dphil2-en' %}
+</div>";s:5:"mtime";i:1531602983;s:6:"markup";s:130:"<div class="container">
+    {% content 'd3dphil-en' %}
+    {% partial 'about-slider' %}
+    {% content 'd3dphil2-en' %}
+</div>";s:4:"code";N;s:5:"title";s:8:"D3d-phil";s:3:"url";s:15:"/about/d3d-phil";s:6:"layout";s:7:"default";s:9:"is_hidden";s:1:"0";s:7:"viewBag";a:1:{s:9:"localeUrl";a:1:{s:2:"fr";s:10:"/d3d-phils";}}}}

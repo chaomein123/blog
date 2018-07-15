@@ -1,0 +1,883 @@
+.====================================================================.
+                                                                      
+ .d8888b.   .o8888b.   db  .d8888b.  d8888b. d88888b d8888b.  .d888b. 
+.8P    Y8. d8P    Y8   88 .8P    Y8. 88  `8D 88'     88  `8D .8P , Y8.
+88      88 8P      oooo88 88      88 88oooY' 88oooo  88oobY' 88  |  88
+88      88 8b      ~~~~88 88      88 88~~~b. 88~~~~  88`8b   88  |/ 88
+`8b    d8' Y8b    d8   88 `8b    d8' 88   8D 88.     88 `88. `8b | d8'
+ `Y8888P'   `Y8888P'   YP  `Y8888P'  Y8888P' Y88888P 88   YD  `Y888P' 
+                                                                      
+`========================== INSTALLATION LOG ========================'
+
+[2018/06/16 07:40:38] Host: Windows NT PC-PC 6.1 build 7601 (Windows 7 Professional Edition Service Pack 1) AMD64
+[2018/06/16 07:40:38] PHP version: 7.2.4
+[2018/06/16 07:40:38] Server software: Apache/2.4.33 (Win64) PHP/7.2.4
+[2018/06/16 07:40:38] Operating system: WINNT
+[2018/06/16 07:40:38] Memory limit: 128M
+[2018/06/16 07:40:38] Max execution time: 3600
+.============================ POST REQUEST ==========================.
+[2018/06/16 07:40:39] Postback payload: Array
+(
+    [code] => phpVersion
+    [handler] => onCheckRequirement
+)
+
+[2018/06/16 07:40:39] System check: phpVersion
+[2018/06/16 07:40:39] Requirement phpVersion +OK
+[2018/06/16 07:40:39] Execute handler (onCheckRequirement): Array
+(
+    [result] => 1
+)
+
+.============================ POST REQUEST ==========================.
+[2018/06/16 07:40:39] Postback payload: Array
+(
+    [code] => curlLibrary
+    [handler] => onCheckRequirement
+)
+
+[2018/06/16 07:40:39] System check: curlLibrary
+[2018/06/16 07:40:39] Requirement curlLibrary +OK
+[2018/06/16 07:40:39] Execute handler (onCheckRequirement): Array
+(
+    [result] => 1
+)
+
+.============================ POST REQUEST ==========================.
+[2018/06/16 07:40:40] Postback payload: Array
+(
+    [code] => liveConnection
+    [handler] => onCheckRequirement
+)
+
+[2018/06/16 07:40:40] System check: liveConnection
+[2018/06/16 07:40:42] Server request: ping
+[2018/06/16 07:40:42] Request information: Array
+(
+    [url] => http://octobercms.com/api/ping
+    [content_type] => application/json
+    [http_code] => 200
+    [header_size] => 361
+    [request_size] => 181
+    [filetime] => -1
+    [ssl_verify_result] => 0
+    [redirect_count] => 0
+    [total_time] => 2.184
+    [namelookup_time] => 0.5
+    [connect_time] => 1.576
+    [pretransfer_time] => 1.576
+    [size_upload] => 50
+    [size_download] => 12
+    [speed_download] => 5
+    [speed_upload] => 22
+    [download_content_length] => 12
+    [upload_content_length] => 50
+    [starttransfer_time] => 2.184
+    [redirect_time] => 0
+    [redirect_url] => 
+    [primary_ip] => 104.24.112.12
+    [certinfo] => Array
+        (
+        )
+
+    [primary_port] => 80
+    [local_ip] => 192.168.0.105
+    [local_port] => 61130
+)
+
+[2018/06/16 07:40:42] Requirement liveConnection +OK
+[2018/06/16 07:40:42] Execute handler (onCheckRequirement): Array
+(
+    [result] => 1
+)
+
+.============================ POST REQUEST ==========================.
+[2018/06/16 07:40:42] Postback payload: Array
+(
+    [code] => writePermission
+    [handler] => onCheckRequirement
+)
+
+[2018/06/16 07:40:42] System check: writePermission
+[2018/06/16 07:40:42] Requirement writePermission +OK
+[2018/06/16 07:40:42] Execute handler (onCheckRequirement): Array
+(
+    [result] => 1
+)
+
+.============================ POST REQUEST ==========================.
+[2018/06/16 07:40:43] Postback payload: Array
+(
+    [code] => pdoLibrary
+    [handler] => onCheckRequirement
+)
+
+[2018/06/16 07:40:43] System check: pdoLibrary
+[2018/06/16 07:40:43] Requirement pdoLibrary +OK
+[2018/06/16 07:40:43] Execute handler (onCheckRequirement): Array
+(
+    [result] => 1
+)
+
+.============================ POST REQUEST ==========================.
+[2018/06/16 07:40:43] Postback payload: Array
+(
+    [code] => mbstringLibrary
+    [handler] => onCheckRequirement
+)
+
+[2018/06/16 07:40:43] System check: mbstringLibrary
+[2018/06/16 07:40:43] Requirement mbstringLibrary +OK
+[2018/06/16 07:40:43] Execute handler (onCheckRequirement): Array
+(
+    [result] => 1
+)
+
+.============================ POST REQUEST ==========================.
+[2018/06/16 07:40:44] Postback payload: Array
+(
+    [code] => fileinfoLibrary
+    [handler] => onCheckRequirement
+)
+
+[2018/06/16 07:40:44] System check: fileinfoLibrary
+[2018/06/16 07:40:44] Requirement fileinfoLibrary +OK
+[2018/06/16 07:40:44] Execute handler (onCheckRequirement): Array
+(
+    [result] => 1
+)
+
+.============================ POST REQUEST ==========================.
+[2018/06/16 07:40:45] Postback payload: Array
+(
+    [code] => sslLibrary
+    [handler] => onCheckRequirement
+)
+
+[2018/06/16 07:40:45] System check: sslLibrary
+[2018/06/16 07:40:45] Requirement sslLibrary +OK
+[2018/06/16 07:40:45] Execute handler (onCheckRequirement): Array
+(
+    [result] => 1
+)
+
+.============================ POST REQUEST ==========================.
+[2018/06/16 07:40:45] Postback payload: Array
+(
+    [code] => zipLibrary
+    [handler] => onCheckRequirement
+)
+
+[2018/06/16 07:40:45] System check: zipLibrary
+[2018/06/16 07:40:45] Requirement zipLibrary +OK
+[2018/06/16 07:40:45] Execute handler (onCheckRequirement): Array
+(
+    [result] => 1
+)
+
+.============================ POST REQUEST ==========================.
+[2018/06/16 07:40:46] Postback payload: Array
+(
+    [code] => gdLibrary
+    [handler] => onCheckRequirement
+)
+
+[2018/06/16 07:40:46] System check: gdLibrary
+[2018/06/16 07:40:46] Requirement gdLibrary +OK
+[2018/06/16 07:40:46] Execute handler (onCheckRequirement): Array
+(
+    [result] => 1
+)
+
+.============================ POST REQUEST ==========================.
+[2018/06/16 07:46:55] Postback payload: Array
+(
+    [db_type] => mysql
+    [db_host] => localhost
+    [db_port] => 
+    [db_name] => d3dengin
+    [db_user] => root
+    [db_pass] => *******
+    [admin_first_name] => D3d
+    [admin_last_name] => Engineering
+    [admin_email] => *******@*****.com
+    [admin_login] => d3d_engin1416
+    [admin_password] => *******
+    [admin_confirm_password] => *******
+    [backend_uri] => /backend
+    [encryption_code] => *******
+    [file_mask] => 777
+    [folder_mask] => 777
+    [handler] => onValidateDatabase
+)
+
+.============================ POST REQUEST ==========================.
+[2018/06/16 07:46:55] Postback payload: Array
+(
+    [db_type] => mysql
+    [db_host] => localhost
+    [db_port] => 
+    [db_name] => d3dengin
+    [db_user] => root
+    [db_pass] => *******
+    [admin_first_name] => D3d
+    [admin_last_name] => Engineering
+    [admin_email] => *******@*****.com
+    [admin_login] => d3d_engin1416
+    [admin_password] => *******
+    [admin_confirm_password] => *******
+    [backend_uri] => /backend
+    [encryption_code] => *******
+    [file_mask] => 777
+    [folder_mask] => 777
+    [handler] => onValidateAdminAccount
+)
+
+.============================ POST REQUEST ==========================.
+[2018/06/16 07:46:55] Postback payload: Array
+(
+    [db_type] => mysql
+    [db_host] => localhost
+    [db_port] => 
+    [db_name] => d3dengin
+    [db_user] => root
+    [db_pass] => *******
+    [admin_first_name] => D3d
+    [admin_last_name] => Engineering
+    [admin_email] => *******@*****.com
+    [admin_login] => d3d_engin1416
+    [admin_password] => *******
+    [admin_confirm_password] => *******
+    [backend_uri] => /backend
+    [encryption_code] => *******
+    [file_mask] => 777
+    [folder_mask] => 777
+    [handler] => onValidateAdvancedConfig
+)
+
+.============================ POST REQUEST ==========================.
+[2018/06/16 07:47:26] Postback payload: Array
+(
+    [handler] => onGetPopularThemes
+)
+
+[2018/06/16 07:47:27] Server request: theme/popular
+[2018/06/16 07:47:27] Request information: Array
+(
+    [url] => http://octobercms.com/api/theme/popular
+    [content_type] => application/json
+    [http_code] => 200
+    [header_size] => 363
+    [request_size] => 190
+    [filetime] => -1
+    [ssl_verify_result] => 0
+    [redirect_count] => 0
+    [total_time] => 0.593
+    [namelookup_time] => 0.125
+    [connect_time] => 0.312
+    [pretransfer_time] => 0.312
+    [size_upload] => 50
+    [size_download] => 3925
+    [speed_download] => 6618
+    [speed_upload] => 84
+    [download_content_length] => 3925
+    [upload_content_length] => 50
+    [starttransfer_time] => 0.593
+    [redirect_time] => 0
+    [redirect_url] => 
+    [primary_ip] => 104.24.113.12
+    [certinfo] => Array
+        (
+        )
+
+    [primary_port] => 80
+    [local_ip] => 192.168.0.105
+    [local_port] => 61183
+)
+
+[2018/06/16 07:47:27] Execute handler (onGetPopularThemes): Array
+(
+    [0] => Array
+        (
+            [name] => Clean Blog
+            [description] => Clean blogger theme.
+            [code] => Responsiv.Clean
+            [updated_at] => 2017-04-03 19:39:38
+            [image] => http://octobercms.com/storage/app/uploads/public/58e/304/7a4/thumb_6978_210_140_0_0_crop.png
+            [author] => Responsiv Internet
+            [hash] => 07e5b7066168a94349ac92018770c2e8
+            [demo_url] => http://daftspunk.com/
+            [product_url] => http://octobercms.com/theme/responsiv-clean
+        )
+
+    [1] => Array
+        (
+            [name] => New Age
+            [description] => Landing page for mobile apps
+            [code] => VojtaSvoboda.newage
+            [updated_at] => 2016-10-20 17:20:43
+            [image] => http://octobercms.com/storage/app/uploads/public/580/7eb/dc9/thumb_5770_210_140_0_0_crop.png
+            [author] => Vojta Svoboda
+            [hash] => 09d9e47e64a2ed47dc35146a792008c2
+            [demo_url] => https://blackrockdigital.github.io/startbootstrap-new-age/
+            [product_url] => http://octobercms.com/theme/vojtasvoboda-newage
+        )
+
+    [2] => Array
+        (
+            [name] => Stellar
+            [description] => a clean, responsive one page and blog theme
+            [code] => Zwiebl.zwiebl_stellar
+            [updated_at] => 2016-09-27 16:56:35
+            [image] => http://octobercms.com/storage/app/uploads/public/57e/bb4/fe9/thumb_5641_210_140_0_0_crop.png
+            [author] => Alpen.Space
+            [hash] => 19345446d87ad08e6937503019a43fd9
+            [demo_url] => https://demo.zwiebl.xyz/?theme=stellar
+            [product_url] => http://octobercms.com/theme/zwiebl-zwiebl-stellar
+        )
+
+    [3] => Array
+        (
+            [name] => Blank Bootstrap 4
+            [description] => A blank Bootstrap 4 template
+            [code] => Hambern.hambern-blank-bootstrap-4
+            [updated_at] => 2016-08-23 17:57:44
+            [image] => http://octobercms.com/storage/app/uploads/public/57b/9ba/c48/thumb_5365_210_140_0_0_crop.png
+            [author] => Mattias Hamberg
+            [hash] => 9a6762de633774de2cebf69a88f290d1
+            [demo_url] => 
+            [product_url] => http://octobercms.com/theme/hambern-hambern-blank-bootstrap-4
+        )
+
+    [4] => Array
+        (
+            [name] => Bonjour
+            [description] => A sample multi-lingual theme for translated content.
+            [code] => RainLab.Bonjour
+            [updated_at] => 2016-07-03 21:05:29
+            [image] => http://octobercms.com/storage/app/uploads/public/577/9df/850/thumb_4911_210_140_0_0_crop.png
+            [author] => RainLab
+            [hash] => f1084f81e0e1c5c8d22317794292deb3
+            [demo_url] => 
+            [product_url] => http://octobercms.com/theme/rainlab-bonjour
+        )
+
+    [5] => Array
+        (
+            [name] => Viola
+            [description] => One Page Theme based on Bootstrap 4 with different color schemes, scss files included
+            [code] => JumpLink.Viola
+            [updated_at] => 2016-07-11 09:55:39
+            [image] => http://octobercms.com/storage/app/uploads/public/574/6af/435/thumb_4705_210_140_0_0_crop.png
+            [author] => JumpLink
+            [hash] => fe09a3915724fcc241e0e5914c8ea346
+            [demo_url] => http://healthyteeth.jumplink.eu/
+            [product_url] => http://octobercms.com/theme/jumplink-viola
+        )
+
+    [6] => Array
+        (
+            [name] => Relax
+            [description] => A fictional site called House of Chairs that demonstrates how to build a client-friendly website.
+            [code] => RainLab.Relax
+            [updated_at] => 2015-07-01 19:16:08
+            [image] => http://octobercms.com/storage/app/uploads/public/559/49e/2da/thumb_2585_210_140_0_0_crop.png
+            [author] => RainLab
+            [hash] => a35c64b09ad6347b8a226291e5b8fd75
+            [demo_url] => 
+            [product_url] => http://octobercms.com/theme/rainlab-relax
+        )
+
+    [7] => Array
+        (
+            [name] => Vanilla
+            [description] => A plain starter template that implements account management, a blog and community forum.
+            [code] => RainLab.Vanilla
+            [updated_at] => 2015-04-14 16:37:36
+            [image] => http://octobercms.com/storage/app/uploads/public/552/da4/0f8/thumb_2106_210_140_0_0_crop.png
+            [author] => RainLab
+            [hash] => 4b893d1c085a298e9b9b1d13635a675f
+            [demo_url] => 
+            [product_url] => http://octobercms.com/theme/rainlab-vanilla
+        )
+
+    [8] => Array
+        (
+            [name] => Flat UI
+            [description] => A theme that uses a Flat user-interface and has no dependencies on others plugins.
+            [code] => Responsiv.Flat
+            [updated_at] => 2014-07-23 21:32:51
+            [image] => http://octobercms.com/storage/app/uploads/public/53d/084/fbc/thumb_543_210_140_0_0_crop.png
+            [author] => Responsiv Internet
+            [hash] => 750c624b9caf218672764a1410160808
+            [demo_url] => 
+            [product_url] => http://octobercms.com/theme/responsiv-flat
+        )
+
+)
+
+.============================ POST REQUEST ==========================.
+[2018/06/16 07:48:05] Postback payload: Array
+(
+    [name] => Hambern.hambern-blank-bootstrap-4
+    [handler] => onThemeDetails
+)
+
+[2018/06/16 07:48:05] Server request: theme/detail
+[2018/06/16 07:48:05] Request information: Array
+(
+    [url] => http://octobercms.com/api/theme/detail
+    [content_type] => application/json
+    [http_code] => 200
+    [header_size] => 362
+    [request_size] => 228
+    [filetime] => -1
+    [ssl_verify_result] => 0
+    [redirect_count] => 0
+    [total_time] => 0.484
+    [namelookup_time] => 0.063
+    [connect_time] => 0.234
+    [pretransfer_time] => 0.234
+    [size_upload] => 89
+    [size_download] => 444
+    [speed_download] => 917
+    [speed_upload] => 183
+    [download_content_length] => 444
+    [upload_content_length] => 89
+    [starttransfer_time] => 0.484
+    [redirect_time] => 0
+    [redirect_url] => 
+    [primary_ip] => 104.24.112.12
+    [certinfo] => Array
+        (
+        )
+
+    [primary_port] => 80
+    [local_ip] => 192.168.0.105
+    [local_port] => 61199
+)
+
+[2018/06/16 07:48:05] Execute handler (onThemeDetails): Array
+(
+    [name] => Blank Bootstrap 4
+    [description] => A blank Bootstrap 4 template
+    [code] => Hambern.hambern-blank-bootstrap-4
+    [updated_at] => 2016-08-23 17:57:44
+    [image] => http://octobercms.com/storage/app/uploads/public/57b/9ba/c48/thumb_5365_210_140_0_0_crop.png
+    [author] => Mattias Hamberg
+    [hash] => 9a6762de633774de2cebf69a88f290d1
+    [demo_url] => 
+    [product_url] => http://octobercms.com/theme/hambern-hambern-blank-bootstrap-4
+    [require] => Array
+        (
+        )
+
+)
+
+.============================ POST REQUEST ==========================.
+[2018/06/16 07:48:05] Postback payload: Array
+(
+    [step] => getMetaData
+    [meta] => 
+    [themes] => Array
+        (
+            [0] => Array
+                (
+                    [name] => Blank Bootstrap 4
+                    [description] => A blank Bootstrap 4 template
+                    [code] => Hambern.hambern-blank-bootstrap-4
+                    [updated_at] => 2016-08-23 17:57:44
+                    [image] => http://octobercms.com/storage/app/uploads/public/57b/9ba/c48/thumb_5365_210_140_0_0_crop.png
+                    [author] => Mattias Hamberg
+                    [hash] => 9a6762de633774de2cebf69a88f290d1
+                    [demo_url] => 
+                    [product_url] => http://octobercms.com/theme/hambern-hambern-blank-bootstrap-4
+                )
+
+        )
+
+    [handler] => onInstallStep
+)
+
+[2018/06/16 07:48:05] Install step: getMetaData
+[2018/06/16 07:48:06] Server request: core/install
+[2018/06/16 07:48:06] Request information: Array
+(
+    [url] => http://octobercms.com/api/core/install
+    [content_type] => application/json
+    [http_code] => 200
+    [header_size] => 362
+    [request_size] => 237
+    [filetime] => -1
+    [ssl_verify_result] => 0
+    [redirect_count] => 0
+    [total_time] => 0.499
+    [namelookup_time] => 0.015
+    [connect_time] => 0.187
+    [pretransfer_time] => 0.187
+    [size_upload] => 98
+    [size_download] => 202
+    [speed_download] => 404
+    [speed_upload] => 196
+    [download_content_length] => 202
+    [upload_content_length] => 98
+    [starttransfer_time] => 0.499
+    [redirect_time] => 0
+    [redirect_url] => 
+    [primary_ip] => 104.24.112.12
+    [certinfo] => Array
+        (
+        )
+
+    [primary_port] => 80
+    [local_ip] => 192.168.0.105
+    [local_port] => 61200
+)
+
+[2018/06/16 07:48:06] Step getMetaData +OK
+[2018/06/16 07:48:06] Execute handler (onInstallStep): Array
+(
+    [result] => Array
+        (
+            [core] => Array
+                (
+                    [hash] => 88a5cc3f51814a9e98b558a937d42564
+                    [build] => 436
+                    [uhash] => a0b720c8fd902d65b9a28adc1c7fea7f
+                )
+
+            [plugins] => Array
+                (
+                )
+
+            [themes] => Array
+                (
+                    [Hambern.hambern-blank-bootstrap-4] => 9a6762de633774de2cebf69a88f290d1
+                )
+
+        )
+
+)
+
+.============================ POST REQUEST ==========================.
+[2018/06/16 07:48:06] Postback payload: Array
+(
+    [step] => downloadCore
+    [meta] => Array
+        (
+            [core] => Array
+                (
+                    [hash] => 88a5cc3f51814a9e98b558a937d42564
+                    [build] => 436
+                    [uhash] => a0b720c8fd902d65b9a28adc1c7fea7f
+                )
+
+            [themes] => Array
+                (
+                    [Hambern.hambern-blank-bootstrap-4] => 9a6762de633774de2cebf69a88f290d1
+                )
+
+        )
+
+    [handler] => onInstallStep
+)
+
+[2018/06/16 07:48:06] Install step: downloadCore
+[2018/06/16 07:48:17] Saving to file (core): C:/wamp64/www/d3dengineering/install_files/temp/a74ad8dfacd4f985eb3977517615ce25.arc
+[2018/06/16 07:48:17] Step downloadCore +OK
+[2018/06/16 07:48:17] Execute handler (onInstallStep): Array
+(
+    [result] => 
+)
+
+.============================ POST REQUEST ==========================.
+[2018/06/16 07:48:17] Postback payload: Array
+(
+    [step] => downloadTheme
+    [meta] => Array
+        (
+            [core] => Array
+                (
+                    [hash] => 88a5cc3f51814a9e98b558a937d42564
+                    [build] => 436
+                    [uhash] => a0b720c8fd902d65b9a28adc1c7fea7f
+                )
+
+            [themes] => Array
+                (
+                    [Hambern.hambern-blank-bootstrap-4] => 9a6762de633774de2cebf69a88f290d1
+                )
+
+        )
+
+    [name] => Hambern.hambern-blank-bootstrap-4
+    [handler] => onInstallStep
+)
+
+[2018/06/16 07:48:17] Install step: downloadTheme
+[2018/06/16 07:48:21] Saving to file (Hambern.hambern-blank-bootstrap-4-theme): C:/wamp64/www/d3dengineering/install_files/temp/06ffcd64f2edcc0d2254721fd28db761.arc
+[2018/06/16 07:48:21] Step downloadTheme +OK
+[2018/06/16 07:48:21] Execute handler (onInstallStep): Array
+(
+    [result] => 
+)
+
+.============================ POST REQUEST ==========================.
+[2018/06/16 07:48:21] Postback payload: Array
+(
+    [step] => extractCore
+    [meta] => Array
+        (
+            [core] => Array
+                (
+                    [hash] => 88a5cc3f51814a9e98b558a937d42564
+                    [build] => 436
+                    [uhash] => a0b720c8fd902d65b9a28adc1c7fea7f
+                )
+
+            [themes] => Array
+                (
+                    [Hambern.hambern-blank-bootstrap-4] => 9a6762de633774de2cebf69a88f290d1
+                )
+
+        )
+
+    [handler] => onInstallStep
+)
+
+[2018/06/16 07:48:21] Install step: extractCore
+[2018/06/16 07:48:21] Extracting file (core): a74ad8dfacd4f985eb3977517615ce25.arc
+[2018/06/16 07:49:37] Step extractCore +OK
+[2018/06/16 07:49:37] Execute handler (onInstallStep): Array
+(
+    [result] => 1
+)
+
+.============================ POST REQUEST ==========================.
+[2018/06/16 07:49:37] Postback payload: Array
+(
+    [step] => extractTheme
+    [meta] => Array
+        (
+            [core] => Array
+                (
+                    [hash] => 88a5cc3f51814a9e98b558a937d42564
+                    [build] => 436
+                    [uhash] => a0b720c8fd902d65b9a28adc1c7fea7f
+                )
+
+            [themes] => Array
+                (
+                    [Hambern.hambern-blank-bootstrap-4] => 9a6762de633774de2cebf69a88f290d1
+                )
+
+        )
+
+    [name] => Hambern.hambern-blank-bootstrap-4
+    [handler] => onInstallStep
+)
+
+[2018/06/16 07:49:37] Install step: extractTheme
+[2018/06/16 07:49:37] Extracting file (Hambern.hambern-blank-bootstrap-4-theme): 06ffcd64f2edcc0d2254721fd28db761.arc
+[2018/06/16 07:49:41] Step extractTheme +OK
+[2018/06/16 07:49:41] Execute handler (onInstallStep): Array
+(
+    [result] => 1
+)
+
+.============================ POST REQUEST ==========================.
+[2018/06/16 07:49:42] Postback payload: Array
+(
+    [step] => setupConfig
+    [meta] => Array
+        (
+            [core] => Array
+                (
+                    [hash] => 88a5cc3f51814a9e98b558a937d42564
+                    [build] => 436
+                    [uhash] => a0b720c8fd902d65b9a28adc1c7fea7f
+                )
+
+            [themes] => Array
+                (
+                    [Hambern.hambern-blank-bootstrap-4] => 9a6762de633774de2cebf69a88f290d1
+                )
+
+        )
+
+    [db_type] => mysql
+    [db_host] => localhost
+    [db_port] => 
+    [db_name] => d3dengin
+    [db_user] => root
+    [db_pass] => *******
+    [admin_first_name] => D3d
+    [admin_last_name] => Engineering
+    [admin_email] => *******@*****.com
+    [admin_login] => d3d_engin1416
+    [admin_password] => *******
+    [admin_confirm_password] => *******
+    [backend_uri] => /backend
+    [encryption_code] => *******
+    [file_mask] => 777
+    [folder_mask] => 777
+    [active_theme] => Hambern.hambern-blank-bootstrap-4
+    [handler] => onInstallStep
+)
+
+[2018/06/16 07:49:42] Install step: setupConfig
+[2018/06/16 07:49:42] Step setupConfig +OK
+[2018/06/16 07:49:42] Execute handler (onInstallStep): Array
+(
+    [result] => 
+)
+
+.============================ POST REQUEST ==========================.
+[2018/06/16 07:49:42] Postback payload: Array
+(
+    [step] => createAdmin
+    [meta] => Array
+        (
+            [core] => Array
+                (
+                    [hash] => 88a5cc3f51814a9e98b558a937d42564
+                    [build] => 436
+                    [uhash] => a0b720c8fd902d65b9a28adc1c7fea7f
+                )
+
+            [themes] => Array
+                (
+                    [Hambern.hambern-blank-bootstrap-4] => 9a6762de633774de2cebf69a88f290d1
+                )
+
+        )
+
+    [db_type] => mysql
+    [db_host] => localhost
+    [db_port] => 
+    [db_name] => d3dengin
+    [db_user] => root
+    [db_pass] => *******
+    [admin_first_name] => D3d
+    [admin_last_name] => Engineering
+    [admin_email] => *******@*****.com
+    [admin_login] => d3d_engin1416
+    [admin_password] => *******
+    [admin_confirm_password] => *******
+    [backend_uri] => /backend
+    [encryption_code] => *******
+    [file_mask] => 777
+    [folder_mask] => 777
+    [active_theme] => Hambern.hambern-blank-bootstrap-4
+    [handler] => onInstallStep
+)
+
+[2018/06/16 07:49:42] Install step: createAdmin
+[2018/06/16 07:49:42] Handler error (onInstallStep): SQLSTATE[HY000] [1049] Unknown database 'database' (SQL: select * from information_schema.tables where table_schema = database and table_name = migrations)
+[2018/06/16 07:49:42] Trace log:
+#0 C:\wamp64\www\d3dengineering\vendor\laravel\framework\src\Illuminate\Database\Connection.php(624): Illuminate\Database\Connection->runQueryCallback('select * from i...', Array, Object(Closure))
+#1 C:\wamp64\www\d3dengineering\vendor\laravel\framework\src\Illuminate\Database\Connection.php(333): Illuminate\Database\Connection->run('select * from i...', Array, Object(Closure))
+#2 C:\wamp64\www\d3dengineering\vendor\laravel\framework\src\Illuminate\Database\Schema\MySqlBuilder.php(18): Illuminate\Database\Connection->select('select * from i...', Array)
+#3 C:\wamp64\www\d3dengineering\vendor\laravel\framework\src\Illuminate\Support\Facades\Facade.php(221): Illuminate\Database\Schema\MySqlBuilder->hasTable('migrations')
+#4 C:\wamp64\www\d3dengineering\modules\system\classes\UpdateManager.php(136): Illuminate\Support\Facades\Facade::__callStatic('hasTable', Array)
+#5 C:\wamp64\www\d3dengineering\install_files\php\Installer.php(525): System\Classes\UpdateManager->update()
+#6 C:\wamp64\www\d3dengineering\install_files\php\Installer.php(382): Installer->createAdminAccount()
+#7 C:\wamp64\www\d3dengineering\install_files\php\Installer.php(48): Installer->onInstallStep()
+#8 C:\wamp64\www\d3dengineering\install_files\php\boot.php(74): Installer->__construct()
+#9 C:\wamp64\www\d3dengineering\install.php(1): include('C:\\wamp64\\www\\d...')
+#10 {main}
+.============================ POST REQUEST ==========================.
+[2018/06/16 08:01:50] Postback payload: Array
+(
+    [step] => createAdmin
+    [meta] => Array
+        (
+            [core] => Array
+                (
+                    [hash] => 88a5cc3f51814a9e98b558a937d42564
+                    [build] => 436
+                    [uhash] => a0b720c8fd902d65b9a28adc1c7fea7f
+                )
+
+            [themes] => Array
+                (
+                    [Hambern.hambern-blank-bootstrap-4] => 9a6762de633774de2cebf69a88f290d1
+                )
+
+        )
+
+    [db_type] => mysql
+    [db_host] => localhost
+    [db_port] => 
+    [db_name] => d3dengin
+    [db_user] => root
+    [db_pass] => *******
+    [admin_first_name] => D3d
+    [admin_last_name] => Engineering
+    [admin_email] => *******@*****.com
+    [admin_login] => d3d_engin1416
+    [admin_password] => *******
+    [admin_confirm_password] => *******
+    [backend_uri] => /backend
+    [encryption_code] => *******
+    [file_mask] => 777
+    [folder_mask] => 777
+    [active_theme] => Hambern.hambern-blank-bootstrap-4
+    [handler] => onInstallStep
+)
+
+[2018/06/16 08:01:50] Install step: createAdmin
+[2018/06/16 08:02:10] Step createAdmin +OK
+[2018/06/16 08:02:10] Execute handler (onInstallStep): Array
+(
+    [result] => 
+)
+
+.============================ POST REQUEST ==========================.
+[2018/06/16 08:02:11] Postback payload: Array
+(
+    [disableLog] => 1
+)
+
+[2018/06/16 08:02:11] Install step: setupProject
+[2018/06/16 08:02:11] Step setupProject +OK
+[2018/06/16 08:02:11] Execute handler (onInstallStep): Array
+(
+    [result] => 
+)
+
+.============================ POST REQUEST ==========================.
+[2018/06/16 08:02:12] Postback payload: Array
+(
+    [step] => finishInstall
+    [meta] => Array
+        (
+            [core] => Array
+                (
+                    [hash] => 88a5cc3f51814a9e98b558a937d42564
+                    [build] => 436
+                    [uhash] => a0b720c8fd902d65b9a28adc1c7fea7f
+                )
+
+            [themes] => Array
+                (
+                    [Hambern.hambern-blank-bootstrap-4] => 9a6762de633774de2cebf69a88f290d1
+                )
+
+        )
+
+    [hash] => 88a5cc3f51814a9e98b558a937d42564
+    [build] => 436
+    [uhash] => a0b720c8fd902d65b9a28adc1c7fea7f
+    [handler] => onInstallStep
+)
+
+[2018/06/16 08:02:12] Install step: finishInstall
+[2018/06/16 08:02:12] Cleaning up file: 06ffcd64f2edcc0d2254721fd28db761.arc
+[2018/06/16 08:02:12] Cleaning up file: a74ad8dfacd4f985eb3977517615ce25.arc
+[2018/06/16 08:02:12] Step finishInstall +OK
+[2018/06/16 08:02:12] Execute handler (onInstallStep): Array
+(
+    [result] => 
+)
+

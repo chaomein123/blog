@@ -1,0 +1,9 @@
+1531689733a:1:{s:11:"rev-des.htm";a:10:{s:8:"fileName";s:11:"rev-des.htm";s:7:"content";s:155:"title = "rev-des"
+url = "/expertise/rev-des"
+layout = "default"
+is_hidden = 0
+
+[viewBag]
+localeUrl[fr] = "/rev-des"
+==
+{% partial 'rev-des-part' %}";s:5:"mtime";i:1531607275;s:6:"markup";s:28:"{% partial 'rev-des-part' %}";s:4:"code";N;s:5:"title";s:7:"rev-des";s:3:"url";s:18:"/expertise/rev-des";s:6:"layout";s:7:"default";s:9:"is_hidden";s:1:"0";s:7:"viewBag";a:1:{s:9:"localeUrl";a:1:{s:2:"fr";s:8:"/rev-des";}}}}

@@ -1,0 +1,19 @@
+description = "Navigation bar"
+==
+<section id="navbar" class="m-b-3">
+	<nav class="navbar navbar-light bg-inverse navbar-fixed-top" style="background-color: white;">
+		<div class="container">
+		    <a class="navbar-brand" href="{{ 'home'|page }}">
+                <img class="navbar-brand" src="{{'Logo/d3d-logo-w-name.png'|media}}" alt="D3DLogo">
+            </a>
+			<ul class="nav navbar-nav pull-xs-right">
+				<li class="nav-item{{ this.page.baseFileName == 'home' ? ' active' }}">
+					<a class="nav-link" href="{{ 'home'|page }}">Home</a>
+				</li>
+				<li class="nav-item{{ this.page.baseFileName == 'about' ? ' active' }}">
+					<a class="nav-link" href="{{ 'about'|page }}">About Us</a>
+				</li>
+			</ul>
+		</div>
+	</nav>
+</section>

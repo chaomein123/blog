@@ -1,0 +1,72 @@
+1531612636a:1:{s:16:"rev-des-part.htm";a:6:{s:8:"fileName";s:16:"rev-des-part.htm";s:7:"content";s:1483:"==
+<div class="container">
+	<h1 class="text-center"><a href="#"><b>Reverse Engineering & Design 3D</b></a></h1>
+	<div class="row">
+		<div class="col-sm">
+			<div class="gallery-block grid-gallery">
+			    <div class="row">
+			        <div class="col-md-12 item">
+			            <a class="lightbox" href="{{'about/about-02.jpg'|media}}">
+			                <img class="img-fluid scale-on-hover wow zoomIn" src="{{'about/about-02.jpg'|media}}">
+			            </a>
+			        </div>
+			        <div class="col-md-6 item">
+			            <a class="lightbox" href="{{'about/about-01.jpg'|media}}">
+			                <img class="img-fluid scale-on-hover wow zoomIn" src="{{'about/about-01.jpg'|media}}">
+			            </a>
+			        </div>
+			        <div class="col-md-6 item">
+			            <a class="lightbox" href="{{'about/about-03.jpg'|media}}">
+			                <img class="img-fluid scale-on-hover wow zoomIn float-right" src="{{'about/about-03.jpg'|media}}">
+			            </a>
+			        </div>
+			        <div class="col-md-12 item">
+			            <a class="lightbox" href="{{'about/about-03.jpg'|media}}">
+			                <img class="img-fluid scale-on-hover wow zoomIn float-right" src="{{'about/about-03.jpg'|media}}">
+			            </a>
+			        </div>
+			    </div>
+			</div>
+		</div>
+		<div class="col-sm">
+			<div class="gallery-block grid-gallery">
+    			{% content 'rev-des-en' %}
+    		</div>
+		</div>
+	</div>
+</div>";s:5:"mtime";i:1531607253;s:6:"markup";s:1479:"<div class="container">
+	<h1 class="text-center"><a href="#"><b>Reverse Engineering & Design 3D</b></a></h1>
+	<div class="row">
+		<div class="col-sm">
+			<div class="gallery-block grid-gallery">
+			    <div class="row">
+			        <div class="col-md-12 item">
+			            <a class="lightbox" href="{{'about/about-02.jpg'|media}}">
+			                <img class="img-fluid scale-on-hover wow zoomIn" src="{{'about/about-02.jpg'|media}}">
+			            </a>
+			        </div>
+			        <div class="col-md-6 item">
+			            <a class="lightbox" href="{{'about/about-01.jpg'|media}}">
+			                <img class="img-fluid scale-on-hover wow zoomIn" src="{{'about/about-01.jpg'|media}}">
+			            </a>
+			        </div>
+			        <div class="col-md-6 item">
+			            <a class="lightbox" href="{{'about/about-03.jpg'|media}}">
+			                <img class="img-fluid scale-on-hover wow zoomIn float-right" src="{{'about/about-03.jpg'|media}}">
+			            </a>
+			        </div>
+			        <div class="col-md-12 item">
+			            <a class="lightbox" href="{{'about/about-03.jpg'|media}}">
+			                <img class="img-fluid scale-on-hover wow zoomIn float-right" src="{{'about/about-03.jpg'|media}}">
+			            </a>
+			        </div>
+			    </div>
+			</div>
+		</div>
+		<div class="col-sm">
+			<div class="gallery-block grid-gallery">
+    			{% content 'rev-des-en' %}
+    		</div>
+		</div>
+	</div>
+</div>";s:4:"code";N;s:17:"_PARSER_ERROR_INI";s:0:"";}}

@@ -1,0 +1,211 @@
+1531603842a:1:{s:14:"home-cards.htm";a:6:{s:8:"fileName";s:14:"home-cards.htm";s:7:"content";s:2461:"<div class="container mycard">
+  <h1 class="my-4">  
+  </h1>
+  <div class="row">
+    <div class="col-sm-4 portfolio-item">
+      <div class="card h-100 text-center">
+        <a href="#"><img class="card-img-top" src="http://placehold.it/700x400" alt=""></a>
+        <div class="card-body">
+          <h4 class="card-title">
+            <a href="#">Reverse Engineering & Design 3D</a>
+          </h4>
+        </div>
+      </div>
+    </div>
+    <div class="col-sm-4 portfolio-item">
+      <div class="card h-100 text-center">
+        <a href="#"><img class="card-img-top" src="http://placehold.it/700x400" alt=""></a>
+        <div class="card-body">
+          <h4 class="card-title">
+            <a href="#">Conseil & Expertise</a>
+          </h4>
+        </div>
+      </div>
+    </div>
+    <div class="col-sm-4 portfolio-item">
+      <div class="card h-100 text-center">
+        <a href="#"><img class="card-img-top" src="http://placehold.it/700x400" alt=""></a>
+        <div class="card-body">
+          <h4 class="card-title">
+            <a href="#">Measuring Technologies</a>
+          </h4>
+        </div>
+      </div>
+    </div>
+    <div class="col-sm-4 portfolio-item">
+      <div class="card h-100 text-center">
+        <a href="{{ 'leco'|page }}"><img class="card-img-top" src="http://placehold.it/700x400" alt=""></a>
+        <div class="card-body">
+          <h4 class="card-title">
+            <a href="{{ 'leco'|page }}">LECO</a>
+            <h5>Louis Engineering And Construction</h5>
+          </h4>
+          <h4 class="card-title">
+            <a href="{{ 'leco'|page }}">NIGERIA</a>
+          </h4>
+        </div>
+      </div>
+    </div>
+    <div class="col-sm-4 portfolio-item">
+      <div class="card h-100 text-center">
+        <a href="#"><img class="card-img-top" src="http://placehold.it/700x400" alt=""></a>
+        <div class="card-body">
+          <h4 class="card-title">
+            <a href="#">D3D Engineering France</a>
+          </h4>
+        </div>
+      </div>
+    </div>
+    <div class="col-sm-4  portfolio-item">
+      <div class="card h-100 text-center">
+        <a href="#"><img class="card-img-top" src="http://placehold.it/700x400" alt=""></a>
+        <div class="card-body">
+          <h4 class="card-title">
+            <a href="#">D3D Engineering Philippines</a>
+          </h4>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- /.row -->
+</div>";s:5:"mtime";i:1531603241;s:6:"markup";s:2461:"<div class="container mycard">
+  <h1 class="my-4">  
+  </h1>
+  <div class="row">
+    <div class="col-sm-4 portfolio-item">
+      <div class="card h-100 text-center">
+        <a href="#"><img class="card-img-top" src="http://placehold.it/700x400" alt=""></a>
+        <div class="card-body">
+          <h4 class="card-title">
+            <a href="#">Reverse Engineering & Design 3D</a>
+          </h4>
+        </div>
+      </div>
+    </div>
+    <div class="col-sm-4 portfolio-item">
+      <div class="card h-100 text-center">
+        <a href="#"><img class="card-img-top" src="http://placehold.it/700x400" alt=""></a>
+        <div class="card-body">
+          <h4 class="card-title">
+            <a href="#">Conseil & Expertise</a>
+          </h4>
+        </div>
+      </div>
+    </div>
+    <div class="col-sm-4 portfolio-item">
+      <div class="card h-100 text-center">
+        <a href="#"><img class="card-img-top" src="http://placehold.it/700x400" alt=""></a>
+        <div class="card-body">
+          <h4 class="card-title">
+            <a href="#">Measuring Technologies</a>
+          </h4>
+        </div>
+      </div>
+    </div>
+    <div class="col-sm-4 portfolio-item">
+      <div class="card h-100 text-center">
+        <a href="{{ 'leco'|page }}"><img class="card-img-top" src="http://placehold.it/700x400" alt=""></a>
+        <div class="card-body">
+          <h4 class="card-title">
+            <a href="{{ 'leco'|page }}">LECO</a>
+            <h5>Louis Engineering And Construction</h5>
+          </h4>
+          <h4 class="card-title">
+            <a href="{{ 'leco'|page }}">NIGERIA</a>
+          </h4>
+        </div>
+      </div>
+    </div>
+    <div class="col-sm-4 portfolio-item">
+      <div class="card h-100 text-center">
+        <a href="#"><img class="card-img-top" src="http://placehold.it/700x400" alt=""></a>
+        <div class="card-body">
+          <h4 class="card-title">
+            <a href="#">D3D Engineering France</a>
+          </h4>
+        </div>
+      </div>
+    </div>
+    <div class="col-sm-4  portfolio-item">
+      <div class="card h-100 text-center">
+        <a href="#"><img class="card-img-top" src="http://placehold.it/700x400" alt=""></a>
+        <div class="card-body">
+          <h4 class="card-title">
+            <a href="#">D3D Engineering Philippines</a>
+          </h4>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- /.row -->
+</div>";s:4:"code";N;s:12:"parsedMarkup";s:2461:"<div class="container mycard">
+  <h1 class="my-4">  
+  </h1>
+  <div class="row">
+    <div class="col-sm-4 portfolio-item">
+      <div class="card h-100 text-center">
+        <a href="#"><img class="card-img-top" src="http://placehold.it/700x400" alt=""></a>
+        <div class="card-body">
+          <h4 class="card-title">
+            <a href="#">Reverse Engineering & Design 3D</a>
+          </h4>
+        </div>
+      </div>
+    </div>
+    <div class="col-sm-4 portfolio-item">
+      <div class="card h-100 text-center">
+        <a href="#"><img class="card-img-top" src="http://placehold.it/700x400" alt=""></a>
+        <div class="card-body">
+          <h4 class="card-title">
+            <a href="#">Conseil & Expertise</a>
+          </h4>
+        </div>
+      </div>
+    </div>
+    <div class="col-sm-4 portfolio-item">
+      <div class="card h-100 text-center">
+        <a href="#"><img class="card-img-top" src="http://placehold.it/700x400" alt=""></a>
+        <div class="card-body">
+          <h4 class="card-title">
+            <a href="#">Measuring Technologies</a>
+          </h4>
+        </div>
+      </div>
+    </div>
+    <div class="col-sm-4 portfolio-item">
+      <div class="card h-100 text-center">
+        <a href="{{ 'leco'|page }}"><img class="card-img-top" src="http://placehold.it/700x400" alt=""></a>
+        <div class="card-body">
+          <h4 class="card-title">
+            <a href="{{ 'leco'|page }}">LECO</a>
+            <h5>Louis Engineering And Construction</h5>
+          </h4>
+          <h4 class="card-title">
+            <a href="{{ 'leco'|page }}">NIGERIA</a>
+          </h4>
+        </div>
+      </div>
+    </div>
+    <div class="col-sm-4 portfolio-item">
+      <div class="card h-100 text-center">
+        <a href="#"><img class="card-img-top" src="http://placehold.it/700x400" alt=""></a>
+        <div class="card-body">
+          <h4 class="card-title">
+            <a href="#">D3D Engineering France</a>
+          </h4>
+        </div>
+      </div>
+    </div>
+    <div class="col-sm-4  portfolio-item">
+      <div class="card h-100 text-center">
+        <a href="#"><img class="card-img-top" src="http://placehold.it/700x400" alt=""></a>
+        <div class="card-body">
+          <h4 class="card-title">
+            <a href="#">D3D Engineering Philippines</a>
+          </h4>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- /.row -->
+</div>";}}

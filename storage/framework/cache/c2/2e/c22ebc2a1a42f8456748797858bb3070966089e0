@@ -1,0 +1,109 @@
+1531689736a:1:{s:10:"navbar.htm";a:7:{s:8:"fileName";s:10:"navbar.htm";s:7:"content";s:3661:"description = "Navigation bar"
+
+[localePicker]
+forceUrl = 0
+==
+
+<nav class="navbar navbar-expand-lg navbar-light sticky-top" style="background-color: #eaf2e9;">
+  <img src="{{'icons/uk.png'|media}}" class="flags_trans" id="english_flag" data-icon="en"><img src="{{'icons/fr.png'|media}}" class="flags_trans" id="france_flag" data-icon="fr"> 
+  <div class="container">
+      <a class="navbar-brand" href="{{ 'home'|page }}">
+        <img  src="{{'Logo/d3d-logo.png'|media}}" height="55px"; alt="">
+      </a>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+  <span class="navbar-toggler-icon"></span>
+  </button>
+    <div class="collapse navbar-collapse" id="navbarResponsive">
+      <ul class="navbar-nav ml-auto">
+        <li class="nav-item{{ this.page.baseFileName == 'home' ? ' active' }}">
+          <a class="nav-link" href="{{ 'home'|page }}">HOME</a>
+        </li>
+        <li class="nav-item {{ this.page.baseFileName == 'about' ? ' active' : this.page.baseFileName == 'd3d-france' ? ' active' : this.page.baseFileName == 'd3d-phil' ? ' active' : this.page.baseFileName == 'leco' ? ' active'}} dropdown">
+          <a class="nav-link dropdown-toggle" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" href="{{ 'about'|page }}">ABOUT</a>
+          <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+            <a class="dropdown-item" href="{{ 'about'|page }}">D3D & LECO</a>
+            <a class="dropdown-item" href="{{ 'd3d-france'|page }}">D3D FRANCE</a>
+            <a class="dropdown-item" href="{{ 'd3d-phil'|page }}">D3D PHILIPPINES</a>
+            <a class="dropdown-item" href="{{ 'leco'|page }}">LECO</a>
+          </div>
+        </li>
+        <li class="nav-item{{ this.page.baseFileName == 'activities' ? ' active' }}">
+          <a class="nav-link" href="{{ 'activities'|page }}">ACTIVITIES</a>
+        </li>
+        <li class="nav-item {{ this.page.baseFileName == 'expertise' ? ' active': this.page.baseFileName == 'ex-con' ? ' active' : this.page.baseFileName == 'rev-des' ? ' active' : this.page.baseFileName == 'meas-tech' ? 'active'}} dropdown">
+          <a class="nav-link dropdown-toggle" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" href="{{ 'expertise'|page }}">EXPERTISE</a>
+          <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+            <a class="dropdown-item" href="{{ 'expertise'|page }}">OUR EXPERTISE</a>
+            <a class="dropdown-item" href="{{ 'rev-des'|page }}">REVERSE ENGINEERING & DESIGN 3D</a>
+            <a class="dropdown-item" href="{{ 'ex-con'|page }}">EXPERTISE AND CONSULTING</a>
+            <a class="dropdown-item" href="{{ 'meas-tech'|page }}">MEASURING TECHNOLOGIES</a>
+          </div>
+        </li>
+        <li class="nav-item{{ this.page.baseFileName == 'project' ? ' active' }}">
+          <a class="nav-link" href="{{ 'project'|page }}">PROJECT</a>
+        </li>
+        <li class="nav-item{{ this.page.baseFileName == 'careers' ? ' active' }}">
+          <a class="nav-link" href="{{ 'careers'|page }}">CAREERS</a>
+        </li>
+        <li class="nav-item{{ this.page.baseFileName == 'contact' ? ' active' }}">
+          <a class="nav-link" href="{{ 'contact'|page }}">CONTACT</a>
+        </li>
+        <form class="navbar-form navbar-right trans">
+            {% component 'localePicker' %}
+        </form>
+      </ul>
+    </div>
+  </div>
+</nav>
+<div class="hr"></div>";s:5:"mtime";i:1531610337;s:6:"markup";s:3591:"<nav class="navbar navbar-expand-lg navbar-light sticky-top" style="background-color: #eaf2e9;">
+  <img src="{{'icons/uk.png'|media}}" class="flags_trans" id="english_flag" data-icon="en"><img src="{{'icons/fr.png'|media}}" class="flags_trans" id="france_flag" data-icon="fr"> 
+  <div class="container">
+      <a class="navbar-brand" href="{{ 'home'|page }}">
+        <img  src="{{'Logo/d3d-logo.png'|media}}" height="55px"; alt="">
+      </a>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+  <span class="navbar-toggler-icon"></span>
+  </button>
+    <div class="collapse navbar-collapse" id="navbarResponsive">
+      <ul class="navbar-nav ml-auto">
+        <li class="nav-item{{ this.page.baseFileName == 'home' ? ' active' }}">
+          <a class="nav-link" href="{{ 'home'|page }}">HOME</a>
+        </li>
+        <li class="nav-item {{ this.page.baseFileName == 'about' ? ' active' : this.page.baseFileName == 'd3d-france' ? ' active' : this.page.baseFileName == 'd3d-phil' ? ' active' : this.page.baseFileName == 'leco' ? ' active'}} dropdown">
+          <a class="nav-link dropdown-toggle" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" href="{{ 'about'|page }}">ABOUT</a>
+          <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+            <a class="dropdown-item" href="{{ 'about'|page }}">D3D & LECO</a>
+            <a class="dropdown-item" href="{{ 'd3d-france'|page }}">D3D FRANCE</a>
+            <a class="dropdown-item" href="{{ 'd3d-phil'|page }}">D3D PHILIPPINES</a>
+            <a class="dropdown-item" href="{{ 'leco'|page }}">LECO</a>
+          </div>
+        </li>
+        <li class="nav-item{{ this.page.baseFileName == 'activities' ? ' active' }}">
+          <a class="nav-link" href="{{ 'activities'|page }}">ACTIVITIES</a>
+        </li>
+        <li class="nav-item {{ this.page.baseFileName == 'expertise' ? ' active': this.page.baseFileName == 'ex-con' ? ' active' : this.page.baseFileName == 'rev-des' ? ' active' : this.page.baseFileName == 'meas-tech' ? 'active'}} dropdown">
+          <a class="nav-link dropdown-toggle" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" href="{{ 'expertise'|page }}">EXPERTISE</a>
+          <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+            <a class="dropdown-item" href="{{ 'expertise'|page }}">OUR EXPERTISE</a>
+            <a class="dropdown-item" href="{{ 'rev-des'|page }}">REVERSE ENGINEERING & DESIGN 3D</a>
+            <a class="dropdown-item" href="{{ 'ex-con'|page }}">EXPERTISE AND CONSULTING</a>
+            <a class="dropdown-item" href="{{ 'meas-tech'|page }}">MEASURING TECHNOLOGIES</a>
+          </div>
+        </li>
+        <li class="nav-item{{ this.page.baseFileName == 'project' ? ' active' }}">
+          <a class="nav-link" href="{{ 'project'|page }}">PROJECT</a>
+        </li>
+        <li class="nav-item{{ this.page.baseFileName == 'careers' ? ' active' }}">
+          <a class="nav-link" href="{{ 'careers'|page }}">CAREERS</a>
+        </li>
+        <li class="nav-item{{ this.page.baseFileName == 'contact' ? ' active' }}">
+          <a class="nav-link" href="{{ 'contact'|page }}">CONTACT</a>
+        </li>
+        <form class="navbar-form navbar-right trans">
+            {% component 'localePicker' %}
+        </form>
+      </ul>
+    </div>
+  </div>
+</nav>
+<div class="hr"></div>";s:4:"code";N;s:11:"description";s:14:"Navigation bar";s:12:"localePicker";a:1:{s:8:"forceUrl";s:1:"0";}}}

@@ -1,0 +1,6 @@
+plugin:
+    name: 'd3dengineering.contact::lang.plugin.name'
+    description: 'd3dengineering.contact::lang.plugin.description'
+    author: d3dengineering
+    icon: oc-icon-adjust
+    homepage: ''

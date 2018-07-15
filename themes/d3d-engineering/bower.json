@@ -1,0 +1,24 @@
+{
+  "name": "d3d-engineering",
+  "homepage": "http://www.d3dengineering.com/",
+  "authors": [
+    "D3D Engineering"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "assets/vendor",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "bootstrap": "4",
+    "animate.css": "*",
+    "font-awesome": "*",
+    "holderjs": "*",
+    "wow": "*",
+    "plyr": "*"
+  }
+}
